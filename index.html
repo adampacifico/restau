@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>The Chef's Restau</title>
+</head>
+
+<body>
+    <div id="parallax">
+        <img src="images/parralax.jpg" alt="">
+    </div>
+    <header id="header">
+        <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="myCarousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <div class="container-fluid">
+                        <img src="images/burger.jpg" width="100%" alt="">
+
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="3000">
+                    <div class="container-fluid">
+                        <img src="images/fries.jpg" width="100%" alt="">
+
+                    </div>
+                </div>
+
+                <div class="carousel-item " data-bs-interval="3000">
+                    <div class="container-fluid">
+                        <img src="images/pasta.jpg" width="100%" alt="">
+
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <div class="container-fluid" data-bs-interval="2000">
+                        <img src="images/pizza.jpg" width="100%" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="header-text">
+            <h1>The Chef's Restau</h1>
+            <p>The Restaurant of all time</p>
+        </div>
+        <div class="overlay-color"></div>
+        <nav id="navbar">
+            <div class="container-fluid">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#section-2">About</a></li>
+                    <li><a href="#section-3">Menus</a></li>
+                    <li><a href="#section-4">Testimonial</a></li>
+                    <li><a href="#section-5">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </nav>
+        <div id="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+
+        <div id="burger-tab">
+            <span></span>
+        </div>
+        <div id="side-nav">
+            <img src="images/logo.png" alt="">
+            <ul>
+                <li><a href="#header">home</li>
+                <li><a href="#section-2">about</a></li>
+                <li><a href="#section-3">menu</a></li>
+                <li><a href="#section-4">testimonial</a></li>
+                <li><a href="#section-5">Contact us</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- section 2 -->
+    <section id="section-2">
+        <div id="container-2" class="container-fluid">
+            <div id="about-text">
+                <h1>About</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt id ea non omnis minima nihil,
+                    sapiente
+                    laboriosam veniam soluta? Voluptate possimus dolore tempora reprehenderit quam voluptas similique
+                    necessitatibus aliquid saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eaque
+                    vero iure corporis neque perspiciatis illum quod eos nostrum id magnam magni accusamus nulla
+                    repellendus
+                    ad cum asperiores, dolores adipisci? Praesentium mollitia fugiat quaerat possimus pariatur impedit
+                    tempore iste delectus? <br><br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quod modi rerum veniam nihil
+                    molestiae
+                    tenetur, fuga alias minima nam amet necessitatibus quae laboriosam cumque soluta totam voluptates
+                    culpa
+                    consectetur?
+
+                </p>
+            </div>
+            <div id="about-img">
+                <img src="images/about.png" alt="">
+            </div>
+        </div>
+
+    </section>
+    <!-- end of section-2 -->
+
+    <!-- START OF SECTION-3 -->
+    <section id="section-3" class="container-fluid">
+        <h1>Menu</h1>
+        <p>Click to View Full Screen</p>
+        <div id="menus">
+            <h2>Main Dishes</h2>
+            <ul>
+                <li>
+                    <span type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <h3>Burger</h3>
+                        <p>$3</p>
+                    </span>
+                    <img src="images/burger.jpg" alt="">
+                </li>
+                <li><img src="images/fries.jpg" alt="">
+                    <span type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <h3>Fries</h3>
+                        <p>$2</p>
+                    </span>
+                </li>
+                <li><img src="images/pasta.jpg" alt="">
+                    <span type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                        <h3>Pasta</h3>
+                        <p>$4</p>
+                    </span>
+                </li>
+                <li><img src="images/pizza.jpg" alt="">
+                    <span type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                        <h3>Pizza</h3>
+                        <p>$2.5</p>
+                    </span>
+                </li>
+                <li><img src="images/steak.jpg" alt="">
+                    <span type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                        <h3>Steak</h3>
+                        <p>$10</p>
+                    </span>
+                </li>
+            </ul>
+            <h2>Beverages</h2>
+            <ul>
+                <li>
+                    <span type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                        <h3>Icetea</h3>
+                        <p>$1</p>
+                    </span><img src="images/icetea.jpg" alt="">
+                </li>
+                <li><span type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                        <h3>Pepsi</h3>
+                        <p>$2</p>
+                    </span><img src="images/pepsi.jpg" alt=""></li>
+                <li><span type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                        <h3>Burger</h3>
+                        <p>$3</p>
+                    </span><img src="images/coffee.jpg" alt=""></li>
+            </ul>
+
+        </div>
+
+        <!-- modal -->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-transparent border-0">
+                    <div class="modal-body">
+                        <img src="images/burger.jpg" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-transparent border-0">
+                    <div class="modal-body">
+                        <img src="images/fries.jpg" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-transparent border-0">
+                    <div class="modal-body">
+                        <img src="images/pasta.jpg" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-transparent border-0">
+                    <div class="modal-body">
+                        <img src="images/pizza.jpg" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-transparent border-0">
+                    <div class="modal-body">
+                        <img src="images/steak.jpg" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-transparent border-0">
+                    <div class="modal-body">
+                        <img src="images/icetea.jpg" height="500px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-transparent border-0">
+                    <div class="modal-body">
+                        <img src="images/pepsi.jpg" height="500px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content bg-transparent border-0">
+                    <div class="modal-body">
+                        <img src="images/coffee.jpg" height="500px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end of section-3 -->
+
+    <!-- Start of section 4 -->
+    <section id="section-4">
+        <div id="sectionCon" class="container-fluid">
+            <h1>Customer Reviews</h1>
+            <p>What our customer says in social media.</p>
+            <ul id="testi">
+                <li>
+                    <div class="container-fluid" id="contents">
+                        <div id="testi-icons">
+                            <img src="face/face1.jpg" alt="">
+                            <div>
+                                <h3>Sheldon Cooper</h3>
+                                <p>@SheldonCoop</p>
+                            </div>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quidem debitis maxime
+                            maiores voluptatibus voluptas?</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="container-fluid" id="contents">
+                        <div id="testi-icons">
+                            <img src="face/img-3.jpg" alt="">
+                            <div>
+                                <h3>Howard Wol</h3>
+                                <p>@TheEngineer</p>
+                            </div>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quidem debitis maxime
+                            maiores voluptatibus voluptas?</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="container-fluid" id="contents">
+                        <div id="testi-icons">
+                            <img src="face/face-2.jpg" alt="">
+                            <div>
+                                <h3>Leonard Hofs</h3>
+                                <p>@LennyLeo</p>
+                            </div>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quidem debitis maxime
+                            maiores voluptatibus voluptas?</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="container-fluid" id="contents">
+                        <div id="testi-icons">
+                            <img src="face/face-3.jpg" alt="">
+                            <div>
+                                <h3>Raj Raj</h3>
+                                <p>@Cinnamon</p>
+                            </div>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quidem debitis maxime
+                            maiores voluptatibus voluptas?</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- end of section-4 -->
+
+    <!-- start of section-5 -->
+    <section id="section-5">
+        <h1>Contact Us</h1>
+     
+        <div id="contents">
+            <div class="where">
+                <h4>Where to Find us?</h4>
+                <ul>
+                    <li>Address No.1, Block 4, Somewhere City</li>
+                    <li>Address No.1, Block 4, Somewhere City</li>
+                    <li>Address No.1, Block 4, Somewhere City</li>
+                </ul>
+            </div>
+            <div class="openingHrs">
+                <div>
+                    <h4>Mondays - Fridays</h4>
+                    <p>8am - 6pm</p>
+                </div>
+                <div>
+                    <h4>Saturdays - Sundays</h4>
+                    <p>7am- 5pm</p>
+                </div>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <div class="footer">
+            <h3>Copyright © 2021 The Chef's Restau</h3>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+
+</body>
+<script>
+
+    const burgerBtn = document.getElementById('burger-tab')
+    const sideNav = document.getElementById('side-nav')
+    var menuOpen = false;
+
+    burgerBtn.onclick = function () {
+        if (sideNav.style.opacity === "0") {
+            sideNav.style.display = "block"
+            sideNav.style.opacity = "1"
+            burgerBtn.classList.add('open')
+
+            menuOpen = true;
+            console.log(burgerBtn.classList)
+        } else {
+            sideNav.style.right = "-500px"
+            burgerBtn.classList.remove('open')
+            sideNav.style.opacity = "0"
+            menuOpen = false
+        }
+    }
+</script>
+
+</html>
